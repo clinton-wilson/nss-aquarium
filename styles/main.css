@@ -1,0 +1,113 @@
+.mainContent {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.fishInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fish_pic {
+    display: flex;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 2px solid #f00;
+}
+
+body {
+    background-color: #00CED1;
+}
+
+main {
+    margin: 5em;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: center;
+    font-size: 10rem;
+    background-color: aquamarine;
+    font-family: 'Permanent Marker', cursive;
+    color: #00CED1;
+    text-shadow: 2px 2px #ff0000;
+    border: 2px solid #f00;
+     
+}
+
+.mainContentAreaLeft {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.mainContentAreaMiddle {
+    display: flex;
+    
+    justify-content: space-between;
+    flex-direction: column;
+    flex: 2;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.mainContentAreaRight {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.contentTitle {
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    padding-top: 3em;
+}
+
+.mainCenterTitle {
+    display: flex;
+    font-size: 5em;
+    justify-content: center;
+}
+
+
+.tips {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 2em;
+}
+.tips_header {
+    display: flex;
+    font-size: 3em;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+ul {
+    text-align: center;
+    list-style: inside;
+  }
+
+.sites {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.quote {
+    margin: 1em;
+}
+
+.fish {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
