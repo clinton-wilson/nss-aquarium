@@ -68,6 +68,7 @@ main {
     font-size: 2em;
     justify-content: center;
     padding-top: 3em;
+    text-align: center;
 }
 
 .mainCenterTitle {
@@ -106,7 +107,7 @@ ul {
     margin: 1em;
 }
 
-.fish {
+.fishList {
     display: flex;
     text-align: center;
     flex-direction: column;
